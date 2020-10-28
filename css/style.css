@@ -5,6 +5,62 @@
   License: https://bootstrapmade.com/license/
 */
 
+.home-mouse {
+  bottom: 5.5%;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 29px;
+}
+
+.mouse-shape {
+  background-color: rgba(0,0,0,.45);
+  border: 2px solid transparent;
+  border-color: #fff;
+  border-radius: 25px;
+  box-sizing: content-box;
+  height: 28px;
+  opacity: .8;
+  padding: 5px 11px;
+  width: 3px;
+}
+
+.mouse-wheel {
+  animation: fadeOutDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.3s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+  background-color: #fff;
+  border-radius: 25%;
+  height: 9px;
+  width: 3px;
+}
+
+.ms-badge {
+  height: 120px;
+  width: 120px;
+}
+
+.ms-badge-circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.service-box:hover .ms-badge-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box .ms-badge-circle {
+  transition: all 500ms ease;
+}
+
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
@@ -87,6 +143,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  /* background-color: #000000; */
 }
 
 .overlay-mf {
@@ -607,7 +664,7 @@ a:hover {
 }
 
 .intro .intro-content {
-  text-align: center;
+  text-align: left;
   position: absolute;
 }
 
@@ -717,6 +774,7 @@ a:hover {
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
 }
+
 
 .service-box .service-ico {
   margin-bottom: 1rem;
